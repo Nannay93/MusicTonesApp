@@ -1,0 +1,7 @@
+{
+  "name": "MusicTonesApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
