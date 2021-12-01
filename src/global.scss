@@ -24,3 +24,31 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-content {
+    --ion-background-color:#CFE1E4;
+    ;
+}
+ion-button {
+    --color:white;
+    --background-color: #7795A7;
+  }
+
+  :root {
+    --ion-color-blue: #7795A7;
+    --ion-color-blue-rgb: 119,149,167;
+    --ion-color-blue-contrast: #000000;
+    --ion-color-blue-contrast-rgb: 0,0,0;
+    --ion-color-blue-shade: #698393;
+    --ion-color-blue-tint: #85a0b0;
+  }
+  
+  .ion-color-blue {
+    --ion-color-base: var(--ion-color-blue);
+    --ion-color-base-rgb: var(--ion-color-blue-rgb);
+    --ion-color-contrast: var(--ion-color-blue-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-blue-contrast-rgb);
+    --ion-color-shade: var(--ion-color-blue-shade);
+    --ion-color-tint: var(--ion-color-blue-tint);
+  }
+
