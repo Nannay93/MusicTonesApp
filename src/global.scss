@@ -25,15 +25,21 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+ion-header {
+  --ion-background-color: #AED0D5;
+  
+}
 ion-content {
     --ion-background-color:#CFE1E4;
-    ;
+    
 }
 ion-button {
     --color:white;
     --background-color: #7795A7;
   }
-
+ion-segment-button {
+  --color-checked: #7795A7;
+}
   :root {
     --ion-color-blue: #7795A7;
     --ion-color-blue-rgb: 119,149,167;
