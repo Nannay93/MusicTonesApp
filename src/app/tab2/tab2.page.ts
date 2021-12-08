@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
-export class Tab2Page {
+export class Tab2Page implements OnInit {
 
   
 
-  private selectedSegment: string 
+  private selectedSegment: string = 'Playlists'
   
   constructor() {}
 
@@ -20,7 +20,8 @@ export class Tab2Page {
   }
   
 
-  //segmentChanged(event:any){
-  //  this-selectedSegment=event.target.value
- // }
+  segmentChanged(event: any){
+    console.log(event.target.value);
+    this.selectedSegment = event.target.value
+  }
 }

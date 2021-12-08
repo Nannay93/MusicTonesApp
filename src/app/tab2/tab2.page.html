@@ -28,7 +28,7 @@
 
 <ion-content [fullscreen]="true">
   
-  <ion-row>
+  <ion-row *ngIf="selectedSegment == 'Playlists'">
     <ion-col size="3" >
       <ion-button color="#7795A7">
         <ion-icon name="add-outline"></ion-icon>
@@ -38,6 +38,32 @@
       <p>Add playlist</p>
     </ion-col>
   </ion-row>
-  
+
+  <ion-row *ngIf="selectedSegment == 'Albums'">
+    <ion-col size="3" >
+      
+    </ion-col>
+    <ion-col size="9">
+      <p>Albums here</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row *ngIf="selectedSegment == 'Artists'">
+    <ion-col size="3" >
+      
+    </ion-col>
+    <ion-col size="9">
+      <p>Artists here</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row *ngIf="selectedSegment == 'Favorites'">
+    <ion-col size="3" >
+      
+    </ion-col>
+    <ion-col size="9">
+      <p>Favorites here</p>
+    </ion-col>
+  </ion-row>
   
 </ion-content>
