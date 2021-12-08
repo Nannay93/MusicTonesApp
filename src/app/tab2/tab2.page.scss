@@ -1,11 +1,33 @@
 ion-content {
     --padding-top: 40px;
+    
 }
 // ion-header ion-toolbar {
 //      --background: url('../../assets/image/Group 24.png') no-repeat center fixed;
 // }
+
+// these make everything look nicer but at the cost of functionality:
+
+//ion-content {
+    // overwrite inline styles
+   // --offset-bottom: auto;
+   // --overflow: hidden;
+   // overflow: auto;
+   // &::-webkit-scrollbar {
+   //   display: none;
+   // }
+//}
+//ion-segment {
+   // --offset-: auto;
+   // --overflow: hidden;
+   // overflow: auto;
+   // &::-webkit-scrollbar {
+   //   display: none;
+   // }
+//}
 .ion-header {
     background: #AED0D5;
+      
 }
 .section-header {
     font-weight: bold;
