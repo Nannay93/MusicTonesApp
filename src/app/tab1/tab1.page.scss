@@ -33,7 +33,7 @@ ion-slides {
         }
     }
 }
-@media (max-width: 476px) {
+@media (min-width: 476px) {
     ion.header.header-ios {
         ion-row[wrap] {
             ion-col {
