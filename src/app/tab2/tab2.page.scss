@@ -67,3 +67,21 @@ ion-button {
 ion-slides {
     margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+    ion.header.header-ios {
+        ion-row[wrap] {
+            ion-col {
+                flex-basis: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 476px) {
+    ion.header.header-ios {
+        ion-row[wrap] {
+            ion-col {
+                flex-basis: 50%;
+            }
+        }
+    }
+}
