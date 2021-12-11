@@ -8,23 +8,23 @@ ion-content {
 
 // these make everything look nicer but at the cost of functionality:
 
-//ion-content {
-    // overwrite inline styles
-   // --offset-bottom: auto;
-   // --overflow: hidden;
-   // overflow: auto;
-   // &::-webkit-scrollbar {
-   //   display: none;
-   // }
-//}
-//ion-segment {
-   // --offset-: auto;
-   // --overflow: hidden;
-   // overflow: auto;
-   // &::-webkit-scrollbar {
-   //   display: none;
-   // }
-//}
+/* ion-content {
+      overwrite inline styles; 
+    --offset-bottom: auto;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+     }
+}
+ion-segment {
+    --offset-: auto;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}  */
 .ion-header {
     background: #AED0D5;
       
