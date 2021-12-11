@@ -44,7 +44,7 @@
 <ion-content [fullscreen]="true" *ngIf="selectedSegment == 'Albums'">
   
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/blank-face-lp.jpg">
     </ion-col>
     <ion-col size="9">
@@ -53,7 +53,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/born-to-die.jpg">
     </ion-col>
     <ion-col size="9">
@@ -62,7 +62,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/come-around-sundown.jpg">
     </ion-col>
     <ion-col size="9">
@@ -71,7 +71,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/dear-miss-lonelyhearts.jpg">
     </ion-col>
     <ion-col size="9">
@@ -80,7 +80,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3">
       <img src="../../assets/image/albums/extra-machine.jpg">
     </ion-col>
     <ion-col size="9">
@@ -89,7 +89,7 @@
   </ion-row>
   
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3">
       <img src="../../assets/image/albums/houses-of-the-holy.jpg">
     </ion-col>
     <ion-col size="9">
@@ -98,7 +98,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3">
       <img src="../../assets/image/albums/sea-of-cowards.jpg">
     </ion-col>
     <ion-col size="9">
@@ -107,7 +107,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3">
       <img src="../../assets/image/albums/stadium-arcadium.jpg">
     </ion-col>
     <ion-col size="9">
@@ -120,37 +120,37 @@
 <ion-content [fullscreen]="true" *ngIf="selectedSegment == 'Artists'">
   
   <ion-row class="artistLibrary">
-    <ion-col size="4" >
+    <ion-col size="4" tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Cold War kids</p>
     </ion-col>
-    <ion-col size="4">
+    <ion-col size="4" tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Ex:Re</p>
     </ion-col>
-    <ion-col size="4">
+    <ion-col size="4" tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Fiona Apple</p>
     </ion-col>
   </ion-row>
 
   <ion-row class="artistLibrary">
-    <ion-col size="4" >
+    <ion-col size="4" tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Lana Del Rey</p>
     </ion-col>
-    <ion-col size="4">
+    <ion-col size="4"tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Kid Cudi</p>
     </ion-col>
-    <ion-col size="4">
+    <ion-col size="4"tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Kings of Leon</p>
     </ion-col>
   </ion-row>
 
   <ion-row class="artistLibrary">
-    <ion-col size="4" >
+    <ion-col size="4" tappable>
       <ion-icon name="person-circle-outline" size="large"></ion-icon>
       <p class="artName">Mac Miller</p>
     </ion-col>
@@ -162,7 +162,7 @@
 <ion-content [fullscreen]="true" *ngIf="selectedSegment == 'Favorites'">
   
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/come-around-sundown.jpg">
     </ion-col>
     <ion-col size="8">
@@ -170,12 +170,12 @@
       <p class="artist">Kings of Leon</p>
     </ion-col>
     <ion-col size="1">
-      <ion-icon name="heart" class="heart"></ion-icon>
+        <ion-icon name="heart" class="heart" tappable></ion-icon>
     </ion-col>
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/come-around-sundown.jpg">
     </ion-col>
     <ion-col size="8">
@@ -183,12 +183,12 @@
       <p class="artist">Kings of Leon</p>
     </ion-col>
     <ion-col size="1">
-      <ion-icon name="heart" class="heart"></ion-icon>
+        <ion-icon name="heart" class="heart" tappable></ion-icon>
     </ion-col>
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/the-legend-of-mr-rager.jpg">
     </ion-col>
     <ion-col size="8">
@@ -196,12 +196,12 @@
       <p class="artist">Kid Cudi</p>
     </ion-col>
     <ion-col size="1">
-      <ion-icon name="heart" class="heart"></ion-icon>
+        <ion-icon name="heart" class="heart" tappable></ion-icon>
     </ion-col>
   </ion-row>
 
   <ion-row>
-    <ion-col size="3" >
+    <ion-col size="3" tappable>
       <img src="../../assets/image/albums/born-to-die.jpg">
     </ion-col>
     <ion-col size="8">
@@ -209,9 +209,8 @@
       <p class="artist">Lana Del Rey</p>
     </ion-col>
     <ion-col size="1">
-      <ion-icon name="heart" class="heart"></ion-icon>
+        <ion-icon name="heart" class="heart" tappable></ion-icon>
     </ion-col>
   </ion-row>
 
-  
 </ion-content>
