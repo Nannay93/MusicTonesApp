@@ -119,14 +119,43 @@
 
 <ion-content [fullscreen]="true" *ngIf="selectedSegment == 'Artists'">
   
-  <ion-row>
-    <ion-col size="3" >
-      
+  <ion-row class="artistLibrary">
+    <ion-col size="4" >
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Cold War kids</p>
     </ion-col>
-    <ion-col size="9">
-      <p>Artists here</p>
+    <ion-col size="4">
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Ex:Re</p>
+    </ion-col>
+    <ion-col size="4">
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Fiona Apple</p>
     </ion-col>
   </ion-row>
+
+  <ion-row class="artistLibrary">
+    <ion-col size="4" >
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Lana Del Rey</p>
+    </ion-col>
+    <ion-col size="4">
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Kid Cudi</p>
+    </ion-col>
+    <ion-col size="4">
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Kings of Leon</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="artistLibrary">
+    <ion-col size="4" >
+      <ion-icon name="person-circle-outline" size="large"></ion-icon>
+      <p class="artName">Mac Miller</p>
+    </ion-col>
+  </ion-row>
+  
   
 </ion-content>
 
@@ -134,11 +163,55 @@
   
   <ion-row>
     <ion-col size="3" >
-      
+      <img src="../../assets/image/albums/come-around-sundown.jpg">
     </ion-col>
-    <ion-col size="9">
-      <p>Favorites here</p>
+    <ion-col size="8">
+      <p>Radioactive</p>
+      <p class="artist">Kings of Leon</p>
+    </ion-col>
+    <ion-col size="1">
+      <ion-icon name="heart" class="heart"></ion-icon>
     </ion-col>
   </ion-row>
+
+  <ion-row>
+    <ion-col size="3" >
+      <img src="../../assets/image/albums/come-around-sundown.jpg">
+    </ion-col>
+    <ion-col size="8">
+      <p>The End</p>
+      <p class="artist">Kings of Leon</p>
+    </ion-col>
+    <ion-col size="1">
+      <ion-icon name="heart" class="heart"></ion-icon>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="3" >
+      <img src="../../assets/image/albums/the-legend-of-mr-rager.jpg">
+    </ion-col>
+    <ion-col size="8">
+      <p>Don't Play This Song</p>
+      <p class="artist">Kid Cudi</p>
+    </ion-col>
+    <ion-col size="1">
+      <ion-icon name="heart" class="heart"></ion-icon>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="3" >
+      <img src="../../assets/image/albums/born-to-die.jpg">
+    </ion-col>
+    <ion-col size="8">
+      <p>Summertime Sadness</p>
+      <p class="artist">Lana Del Rey</p>
+    </ion-col>
+    <ion-col size="1">
+      <ion-icon name="heart" class="heart"></ion-icon>
+    </ion-col>
+  </ion-row>
+
   
 </ion-content>

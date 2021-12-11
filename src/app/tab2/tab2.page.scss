@@ -37,11 +37,25 @@ ion-content {
     margin-bottom: 30px;
     
 }
+p {
+    margin-bottom: 0px;
+}
+.artist{
+    margin: 0px;
+}
 .title {
     color: #000000;
     font-size: small;
 }
-
+.artistLibrary {
+    font-size: small;
+    text-align: center;
+}
+.heart {
+    color: #7795A7;
+    ;
+    
+}
 ion-slide {
     display: block;
     text-align: left;
