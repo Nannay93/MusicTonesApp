@@ -3,14 +3,14 @@ ion-content {
     --padding-start: 10%;
     --padding-end: 10%;
     --ion-background-color:#CFE1E4;
-    
 }
- 
+
 .input-group {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom:50px;
+    margin-top: 20px;
 }
  
 .errors {
@@ -20,4 +20,26 @@ ion-content {
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.logo {
+
+}    
+
+.button-1 {
+    background-color: #7795A7;
+width: 259px;
+height: 60px;
+left: 60px;
+top: 614px;
+border-radius:20px;
+font-size: 30px;
+margin-bottom:20px;
+}
+
+ion-content {
+    --background: url('/assets/img/bg.jpg') no-repeat center;
+}
+.text-1 {
+    font-size: 15px;
+    padding-bottom: 25px;
 }

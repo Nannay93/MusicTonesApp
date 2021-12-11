@@ -1,14 +1,9 @@
-<ion-header>
-  <ion-toolbar color="primary">
-    <ion-title>Music Tones App</ion-title>
-  </ion-toolbar>
-</ion-header>
- 
+
 <ion-content>
-  <img src="assets/images/logo.png" alt="logo here">
+  <img class=logo src="../../assets/img/logo.png">
   <form (ngSubmit)="login()" [formGroup]="credentials">
     <div class="input-group">
-      <ion-item>
+      <ion-item class="email">
         <ion-input type="email" placeholder="Email" formControlName="email"></ion-input>
       </ion-item>
       <div *ngIf="(email.dirty || email.touched) && email.errors" class="errors">
@@ -24,8 +19,8 @@
       </div>
     </div>
  
-    <ion-button type="submit" expand="block" [disabled]="!credentials.valid">Sign in</ion-button>
-    <ion-button type="button" expand="block" color="light" fill="clear">New user? Sign up here!
+    <button class="button-1" type="submit" expand="block" [disabled]="!credentials.valid">Sign in</button>
+    <ion-button class="text-1" type="button" expand="block" fill="clear">New user? Sign up here!
     </ion-button>
  
 
