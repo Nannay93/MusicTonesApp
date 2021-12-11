@@ -1,0 +1,69 @@
+ion-content {
+    --padding-top: 40px;
+    
+}
+// ion-header ion-toolbar {
+//      --background: url('../../assets/image/Group 24.png') no-repeat center fixed;
+// }
+
+// these make everything look nicer but at the cost of functionality:
+
+//ion-content {
+    // overwrite inline styles
+   // --offset-bottom: auto;
+   // --overflow: hidden;
+   // overflow: auto;
+   // &::-webkit-scrollbar {
+   //   display: none;
+   // }
+//}
+//ion-segment {
+   // --offset-: auto;
+   // --overflow: hidden;
+   // overflow: auto;
+   // &::-webkit-scrollbar {
+   //   display: none;
+   // }
+//}
+.ion-header {
+    background: #AED0D5;
+      
+}
+.section-header {
+    font-weight: bold;
+    font-size: large;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+p {
+    margin-bottom: 0px;
+}
+.artist{
+    margin: 0px;
+}
+.title {
+    color: #000000;
+    font-size: small;
+}
+.artistLibrary {
+    font-size: small;
+    text-align: center;
+}
+.heart {
+    color: #7795A7;
+    ;
+    
+}
+ion-slide {
+    display: block;
+    text-align: left;
+}
+ion-button {
+    background: #7795A7;
+}
+
+ion-slides {
+    margin-bottom: 20px;
+}
