@@ -1,0 +1,50 @@
+ion-content {
+    --padding-top: 40px;
+}
+// ion-header ion-toolbar {
+//      --background: url('../../assets/image/Group 24.png') no-repeat center fixed;
+// }
+.section-header {
+    font-weight: bold;
+    font-size: large;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+}
+.title {
+    color: #000000;
+    font-size: small;
+}
+
+ion-slide {
+    display: block;
+    text-align: left;
+}
+
+ion-slides {
+    margin-bottom: 20px;
+}
+.item-profile{
+    --ion-item-background:#AED0D5;
+    min-height: 70px;
+    font-size: large;
+    --border-color: #AED0D5;
+    
+    
+}
+
+.item{
+    --ion-item-background:#AED0D5;
+    min-height: 70px;
+    font-size: large;
+    --detail-icon-color:#000000;
+    --border-color: #AED0D5;
+}
+
+.button{
+    font-size: large;
+    display: block;
+    
+}
+
